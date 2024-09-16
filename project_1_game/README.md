@@ -1,15 +1,16 @@
 # Проект 1. Игра: "Угадай число".
 
 ## Оглавление
-[1. Описание проекта](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Описание-проекта)
-[2. Какой кейс решаем?](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Какой-кейс-решаем)
-[3. Краткая информация о данных](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Краткая-информация-о-данных)
-[4. Этапы работы над проектом](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Этапы-работы-над-проектом)
-[5. Результат](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Результат)
-[6. Вывод](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Выводы)
+[1. Описание проекта](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Описание-проекта)</br>
+[2. Какой кейс решаем?](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Какой-кейс-решаем)</br>
+[3. Краткая информация о данных](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Краткая-информация-о-данных)</br>
+[4. Этапы работы над проектом](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Этапы-работы-над-проектом)</br>
+[5. Результат](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Результат)</br>
+[6. Вывод](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Выводы)</br>
 
 ### Описание проекта
 Решение учебной задачи
+</br></br>
 
 ### Какой кейс решаем?
 - написать алгоритм, который загадает и угадает число в диапазоне 1-100 за минимальное количество шагов
@@ -20,19 +21,23 @@
 - алгоритм учитывает информацию больше или меньше предполагаемое число загаданного
 - алгоритм должен угадывать число меньше чем за 20 попыток
 
-**Метрика качества:**
+**Метрика качества:**</br>
 Результат оценивается по среднему количеству попыток за 1000 повторений.
+</br></br>
 
 ### Краткая информация о данных
 Алгоритм генерирует случайные числа и не использует сторонние данные.
+</br></br>
 
 ### Этапы работы над проектом
 - изучение baseline
 - улучшение алгоритма
 - оформление проекта в удалённом репозитории
+</br></br>
 
 ### Результат
 Алгоритм угадывает загаданное число в среднем за 7 попыток.
+</br></br>
 
 ### Вывод
 Выбранный алгоритм динамического обновления диапазона показал свою эффективность. Задача решена.
