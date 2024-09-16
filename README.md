@@ -1,4 +1,4 @@
-# MIPT_practice
+# MIPT practice
 Учебные проекты магистратуры МФТИ по специальности "Инженер Data Science".
 
 # Проекты
