@@ -1,4 +1,5 @@
-# Проект 1. Игра: "Угадай число".
+# Проект 1. Игра: "Угадай число".</br>
+[Открыть код](https://github.com/Vendor62/MIPT_practice/blob/main/project_1_game/game_v3.py)</br></br>
 
 ## Оглавление
 [1. Описание проекта](https://github.com/Vendor62/MIPT_practice/tree/main/project_1_game/README.md#Описание-проекта)</br>
