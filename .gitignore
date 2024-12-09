@@ -1,0 +1,6 @@
+db.sqlite3
+Pipfile
+db/
+distance_proj/__pycache__/
+measurements/__pycache__/
+multilingual-e5-large/
