@@ -1,2 +1,6 @@
 UI/measurements/migrations/__pycache__/
 UI/measurements/migrations/__pycache__/
+.env
+.idea
+.DS_Store
+/data/*
