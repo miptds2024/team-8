@@ -37,7 +37,7 @@
     - База данных: Хранилище информации о заведениях (локация, рейтинги, отзывы и др.).
     - ML-компоненты: Предобученная LLM и Retrieval-Augmented Generation для персонализированных рекомендаций.<br><br>
 - Технологии:
-    - Языковые модели: USER-bge-m3, Chat GPT-4o mini
+    - Языковые модели: USER-bge-m3, ru_core_news_sm, cross-encoder-russian-msmarco, GPT-4o
     - RAG: для соединения LLM с базой данных.
     - База данных: ChromaDB — векторная база данных, предназначенная для работы с эмбеддингами.
     - Инструменты: Python (pandas, torch, transformers, django, folium)<br><br>
