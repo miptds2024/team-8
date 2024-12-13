@@ -34,14 +34,20 @@
 
 <hr>
 
-
-
+<div class="input-group mb-3">
+<div style="width: 40%">
 <form action='' method='POST', autocomplete='off'>
     {% csrf_token %}
     {{form|crispy}}
     <button type='submit' class='btn btn-primary'>Искать</button>
     </form>
+</div>
+<textarea rows="3" style="margin-left: 5%; width: 55%;" disabled>
+{{text}}
+</textarea>
+</div>
     <br>
+
 
 
 {{map|safe}}
