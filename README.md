@@ -50,19 +50,19 @@
     - Python 3.9+
     - Библиотеки, перечисленные в requirements.txt
 - Инструкция:
-    1. Скопировать каталог UI на сервер с docker compose.
-    2. В файле app/geo.yml заполнить данные:
-        - PROXY_API_KEY: ключ для API openai
-        - PROXY_API_URL: адрес API openai
-        - DJANGO_KEY: Django SECRET_KEY
-    3. В папку db скопировать базу данных chromadb c отзывами
-    4. В папку models загрузить модели:
-        - deepvk/USER-bge-m3
-        - DiTy/cross-encoder-russian-msmarco
-        - spacy/ru_core_news_sm
-    5. В папку geoip скачать карты mmdb. Скачать можно [здесь](https://github.com/P3TERX/GeoLite.mmdb)
-    6. Запустить сервис командой docker-compose up
-    7. Сервис будет доступен по адресу `http://<адрес сервера>:9001`<br><br>
+1. Скопировать каталог UI на сервер с docker compose.
+2. В файле app/geo.yml заполнить данные:
+    - PROXY_API_KEY: ключ для API openai
+    - PROXY_API_URL: адрес API openai
+    - DJANGO_KEY: Django SECRET_KEY
+3. В папку db скопировать базу данных chromadb c отзывами
+4. В папку models загрузить модели:
+    - deepvk/USER-bge-m3
+    - DiTy/cross-encoder-russian-msmarco
+    - spacy/ru_core_news_sm
+5. В папку geoip скачать карты mmdb. Скачать можно [здесь](https://github.com/P3TERX/GeoLite.mmdb)
+6. Запустить сервис командой docker-compose up
+7. Сервис будет доступен по адресу `http://<адрес сервера>:9001`<br><br>
 ## Дальнейшее развитие
 - Добавление функционала с построением маршрутов.
 - Интеграция с популярными туристическими сервисами.
