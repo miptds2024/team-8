@@ -1,0 +1,16 @@
+version: '3.8'
+networks:
+  my_network:
+    driver: bridge
+services:
+    web:
+       restart: always
+       build: .
+       command: python manage.py runserver 0.0.0.0:9001
+       ports:
+           - 9001:9001
+       volumes:
+           - ./db:/db
+           - ./models:/models
+           - ./geoip:/geoip
+       
