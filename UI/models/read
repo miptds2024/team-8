@@ -1,0 +1,4 @@
+загрузить модели:
+- deepvk/USER-bge-m3
+- DiTy/cross-encoder-russian-msmarco
+- spacy/ru_core_news_sm
